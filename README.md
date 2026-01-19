@@ -8,9 +8,9 @@
 
 I am a **Computer Science & Engineering** student at **North South University** 🎓. I am a problem-solver at heart with a deep passion for mathematics, logic, and creative communication. 
 
-My journey is fueled by curiosity—from winning regional **Math, Physics, and Economics Olympiads** [cite: 27, 28, 30] to founding cultural clubs and organizing national-level debate competitions. I believe in the power of technology to solve real-world problems and am currently honing my skills in software development and programming.
+My journey is fueled by curiosity—from winning regional **Math, Physics, and Economics Olympiads** to founding cultural clubs and organizing national-level debate competitions. I believe in the power of technology to solve real-world problems and am currently honing my skills in software development and programming.
 
-When I'm not coding, I’m likely strategizing over a **Chess** board (District Champion!) ♟️ [cite: 68], exploring new places, or contributing to cultural platforms[cite: 42, 54].
+When I'm not coding, I’m likely strategizing over a **Chess** board (District Champion!) ♟️, exploring new places, or contributing to cultural platforms.
 
 ### Talking about Personal Stuff:
 
