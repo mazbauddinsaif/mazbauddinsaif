@@ -17,14 +17,14 @@ When I'm not coding, I’m likely strategizing over a **Chess** board (District 
 - 🛠 &nbsp; I’m currently building my foundation in **C, C++, and Python**.
 - 🚀 &nbsp; Exploring the worlds of **Software Engineering and AI**.
 - 💬 &nbsp; Ask me about Math Olympiads, Debating, or Cultural Management.
-- 👾 &nbsp; Fun fact: I founded a cultural club that I managed for 5 years! [cite: 43]
-- 📫 &nbsp; Reach me at: mazbauddinsaif@gmail.com[cite: 2].
+- 👾 &nbsp; Fun fact: I founded a cultural club that I managed for 5 years! 
+- 📫 &nbsp; Reach me at: mazbauddinsaif@gmail.com
 
 ### My Core Competencies:
 
-- 💻 &nbsp; **Computer Skills:** MS Office (Expert), Photoshop, Video Editing[cite: 51, 56].
+- 💻 &nbsp; **Computer Skills:** MS Office (Expert), Photoshop, Video Editing
 - 🗣 &nbsp; **Leadership:** Former President of CGHS Cultural Club & Executive Member at RDS.
-- 🏆 &nbsp; **Achievements:** 40+ certifications across technical and academic fields[cite: 70].
+- 🏆 &nbsp; **Achievements:** 40+ certifications across technical and academic fields
 
 ### Languages and Tools:
 
@@ -42,8 +42,8 @@ When I'm not coding, I’m likely strategizing over a **Chess** board (District 
 | Level | Institution | Result |
 | :--- | :--- | :--- |
 | **B.Sc in CSE** | North South University | Ongoing  |
-| **HSC (Science)** | Dhaka Residential Model College | GPA 5.00 [cite: 121] |
-| **SSC (Science)** | Cox’s Bazar Govt. Boys’ High School | GPA 5.00 [cite: 121] |
+| **HSC (Science)** | Dhaka Residential Model College | GPA 5.00  |
+| **SSC (Science)** | Cox’s Bazar Govt. Boys’ High School | GPA 5.00 |
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=radical&include_all_commits=true" />
