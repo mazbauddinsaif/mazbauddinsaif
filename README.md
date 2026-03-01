@@ -1,4 +1,4 @@
-## Hey there 👋, I'm [Mazba Uddin Saif!]([https://github.com/mazbauddinsaif/](https://mazba-portfolio-website.vercel.app/#))
+## Hey there 👋, I'm [Mazba Uddin Saif!]([https://mazba-portfolio-website.vercel.app/#])
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mazbauddinsaif)
 [![Facebook Badge](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=Facebook&logoColor=white)](https://www.facebook.com/mazbauddin.saif.47)
