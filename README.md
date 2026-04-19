@@ -1,56 +1,123 @@
-## Hey there 👋, I'm [Mazba Uddin Saif!](https://mazba-portfolio-website.vercel.app/#)
+<h1 align="center">
+  <a href="https://mazba-portfolio-website.vercel.app/#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B%2C+I'm+Mazba+Uddin+Saif;Junior+Software+Developer+%40+Automata+One;Instructor+%40+Phoenix+Education;CSE+Undergraduate+%40+North+South+University" alt="Typing SVG" />
+  </a>
+</h1>
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mazbauddinsaif)
-[![Facebook Badge](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=Facebook&logoColor=white)](https://www.facebook.com/mazbauddin.saif.47)
+<p align="center">
+  <a href="https://linkedin.com/in/mazbauddinsaif"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://mazba-portfolio-website.vercel.app/#"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:mazbauddinsaif@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.facebook.com/mazbauddin.saif.47"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+</p>
 
-### Glad to see you here! 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mazbauddinsaif&label=Profile%20views&color=0e75b6&style=flat" alt="mazbauddinsaif" /> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mazbauddinsaif&label=Profile%20views&color=58a6ff&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/mazbauddinsaif?label=Followers&style=for-the-badge&color=58a6ff" />
+</p>
 
-I am a **Computer Science & Engineering** student at **North South University** 🎓. I am a problem-solver at heart with a deep passion for mathematics, logic, and creative communication. 
+---
 
-My journey is fueled by curiosity—from winning regional **Math, Physics, and Economics Olympiads** to founding cultural clubs and organizing national-level debate competitions. I believe in the power of technology to solve real-world problems and am currently honing my skills in software development and programming.
+## 🧑‍💻 About Me
 
-When I'm not coding, I’m likely strategizing over a **Chess** board (District Champion!) ♟️, exploring new places, or contributing to cultural platforms.
+```yaml
+name: Mazba Uddin Saif
+location: Bangladesh
+education: B.Sc in CSE @ North South University
+roles:
+  - Junior Software Developer @ Automata One (Mar 2026 - Present)
+  - Instructor @ Phoenix Education (Jun 2025 - Present)
+previously:
+  - Junior Executive, Academics @ Phoenix Education (May 2025 - May 2026)
+focus:
+  - Building secure, scalable web systems
+  - Full-stack engineering with Next.js + React + Node.js
+  - Cybersecurity & defensive engineering
+  - Competitive Programming (Codeforces)
+currently_learning:
+  - Advanced TypeScript & system design
+  - Cybersecurity fundamentals
+  - AI / ML foundations
+ask_me_about: [DSA, OOP, Math Olympiads, Debating]
+fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
+```
 
-### Talking about Personal Stuff:
+---
 
-- 🛠 &nbsp; I’m currently building my foundation in **C, C++, and Python**.
-- 🚀 &nbsp; Exploring the worlds of **Software Engineering and AI**.
-- 💬 &nbsp; Ask me about Math Olympiads, Debating, or Cultural Management.
-- 👾 &nbsp; Fun fact: I founded a cultural club that I managed for 5 years! 
-- 📫 &nbsp; Reach me at: mazbauddinsaif@gmail.com
+## 💼 Experience
 
-### My Core Competencies:
-
-- 💻 &nbsp; **Computer Skills:** MS Office (Expert), Photoshop, Video Editing
-- 🗣 &nbsp; **Leadership:** Former President of CGHS Cultural Club & Executive Member at RDS.
-- 🏆 &nbsp; **Achievements:** 40+ certifications across technical and academic fields
-
-### Languages and Tools:
-
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png" alt="c"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" alt="cpp"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html5/html5.png" alt="html5"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"></code>
-
-
-### ✨ Academic Highlights:
-| Level | Institution | Result |
+| Role | Company | Duration |
 | :--- | :--- | :--- |
-| **B.Sc in CSE** | North South University | Ongoing  |
-| **HSC (Science)** | Dhaka Residential Model College | GPA 5.00  |
-| **SSC (Science)** | Cox’s Bazar Govt. Boys’ High School | GPA 5.00 |
+| **Junior Software Developer** | Automata One | Mar 2026 – Present |
+| **Instructor** | Phoenix Education | Jun 2025 – Present |
+| **Junior Executive — Academics** | Phoenix Education | May 2025 – May 2026 |
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,html,css&theme=dark" />
+</p>
+
+### Frameworks & Libraries
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express&theme=dark" />
+</p>
+
+### Tools & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,vercel,linux,bash&theme=dark" />
+</p>
+
+### Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres&theme=dark" />
+</p>
+
+---
+
+## 🚀 What I'm Working On
+
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| **Production EdTech Platform** @ Automata One | Next.js · React · TS · Tailwind · TanStack Query · Framer Motion · Node.js · Express · MongoDB | Full-stack work — frontend, LMS modules, backend APIs |
+| **Codeforces Grind** | C++ | Daily competitive programming practice |
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=radical&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </div>
 
-<hr>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true" />
+</div>
 
 <div align="center">
-  <h3>Let's build something impactful together! 🌟</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=ffffff&area=true&hide_border=true" />
+</div>
+
+---
+
+## 🎓 Academic Highlights
+
+| Level | Institution | Result |
+| :--- | :--- | :--- |
+| **B.Sc in CSE** | North South University | Ongoing |
+| **HSC (Science)** | Dhaka Residential Model College | GPA 5.00 |
+| **SSC (Science)** | Cox's Bazar Govt. Boys' High School | GPA 5.00 |
+
+> 🏆 **40+ certifications** · Regional **Math, Physics & Economics Olympiad** winner · **District Chess Champion** · Former President of CGHS Cultural Club
+
+---
+
+<div align="center">
+  <i>⚡ "Stay curious. Build secure. Ship clean." ⚡</i>
+  <br/><br/>
+  <h3>Let's build something impactful together 🌟</h3>
 </div>
