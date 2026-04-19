@@ -119,14 +119,14 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
 <details open>
 <summary><a name="prizes"></a><h2>🏆 Prize Places & Awards</h2></summary>
     <div align="center">
+       <img src="./assets/certificates/diploma-software-2021.jpg" width=200 alt="Software Diploma 2021"/>
+        <img src="./assets/certificates/nsu-scholarship-letter-2025.jpg" width=200 alt="NSU Scholarship 2025"/><br>
       <img src="./assets/certificates/bdmo-2025-regional.jpg" width=200 alt="BdMO 2025 Regional"/>
         <img src="./assets/certificates/bdmo-2021-winner.jpg" width=200 alt="BdMO 2021 National Winner"/>
         <img src="./assets/certificates/bdpho-2020-national.jpg" width=200 alt="BdPhO 2020 National"/>
        <img src="./assets/certificates/astronomy-2023.jpg" width=200 alt="Astronomy Olympiad 2023"/>
         <img src="./assets/certificates/bdpho-2020-achievement.jpg" width=200 alt="BdPhO 2020 Achievement"/>
         <img src="./assets/certificates/nsu-admission-award-2025.jpg" width=200 alt="NSU Admission Award 2025"/>
-       <img src="./assets/certificates/diploma-software-2021.jpg" width=200 alt="Software Diploma 2021"/>
-      <img src="./assets/certificates/nsu-scholarship-letter-2025.jpg" width=200 alt="NSU Scholarship 2025"/>
         <img src="./assets/certificates/ucb-quiz-2024.jpg" width=200 alt="UCB Quiz 2024"/>
         <img src="./assets/certificates/bdmo-2025-selection.jpg" width=200 alt="BdMO 2025 Selection"/>
         <img src="./assets/certificates/bdmo-2023-selection.jpg" width=200 alt="BdMO 2023 Selection"/>
@@ -139,14 +139,13 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
         <img src="./assets/certificates/english-olympiad-2018.jpg" width=200 alt="English Olympiad 2018"/>
         <img src="./assets/certificates/nno-2023.jpg" width=200 alt="National Notundhara Olympiad 2023"/>
         <img src="./assets/certificates/rds-2023.jpg" width=200 alt="RDS 2023"/>
-        <img src="./assets/certificates/bangabandhu-2022-honor.jpg" width=200 alt="Bangabandhu 2022 Honor"/>
         <img src="./assets/certificates/bangabandhu-2022.jpg" width=200 alt="Bangabandhu 2022"/>
         <img src="./assets/certificates/ict-scout-2025.jpg" width=200 alt="ICT Scout 2025"/>
         <img src="./assets/certificates/libraries-unlimited-2019.jpg" width=200 alt="Libraries Unlimited 2019"/>
         <img src="./assets/certificates/bigyan-joyotsob-2015.jpg" width=200 alt="Bigyan Joyotsob 2015"/>
         <img src="./assets/certificates/child-award-2022.jpg" width=200 alt="Child Award 2022"/>
         <img src="./assets/certificates/child-award-2020-a.jpg" width=200 alt="Child Award 2020 A"/>
-        <img src="./assets/certificates/child-award-2020-b.jpg20" width=200 alt="Child Award 20 B"/>
+        <img src="./assets/certificates/child-award-2020-b.jpg" width=200 alt="Child Award 20 B"/>
         <img src="./assets/certificates/child-award-2020-c.jpg" width=200 alt="Child Award 2020 C"/>
         <img src="./assets/certificates/child-award-2020-art.jpg" width=200 alt="Child Award 2020 Art"/>
         <img src="./assets/certificates/child-award-2020-poem.jpg" width=200 alt="Child Award 2020 Poem"/>
@@ -164,7 +163,8 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
         <img src="./assets/certificates/sports-2018-relay.jpg" width=200 alt="Sports 2018 Relay"/>
         <img src="./assets/certificates/sports-2018-swim.jpg" width=200 alt="Sports 2018 Swim"/>
         <img src="./assets/certificates/prothomalo-gpa5-2022.jpg" width=200 alt="Prothom Alo GPA 5 Honor 2022"/>
-        <img src="./assets/certificates/recapify-2025.jpg" width=200 alt="Recapify 2025"/>
+        <img src="./assets/certificates/recapify-2025.jpg" width=200 alt="Recapify 2025"/><br>
+      <img src="./assets/certificates/bangabandhu-2022-honor.jpg" width=200 alt="Bangabandhu 2022 Honor"/>
     </div>
 </details>
 
