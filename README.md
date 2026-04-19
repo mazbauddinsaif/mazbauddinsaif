@@ -116,6 +116,76 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
 
 ---
 
+<details open>
+<summary><a name="prizes"></a><h2>🏆 Prize Places & National Awards</h2></summary>
+    <div align="center">
+        <img src="./assets/certificates/bdmo-2021-winner.jpg" width=200 alt="BdMO 2021 National Winner"/>
+        <img src="./assets/certificates/bdpho-2020-national.jpg" width=200 alt="BdPhO 2020 National"/>
+        <img src="./assets/certificates/bdpho-2020-achievement.jpg" width=200 alt="BdPhO 2020 Achievement"/>
+        <img src="./assets/certificates/nsu-admission-award-2025.jpg" width=200 alt="NSU Admission Award 2025"/>
+        <img src="./assets/certificates/nsu-scholarship-letter-2025.jpg" width=200 alt="NSU Scholarship 2025"/>
+        <img src="./assets/certificates/prothomalo-gpa5-2022.jpg" width=200 alt="Prothom Alo GPA 5 Honor 2022"/>
+        <img src="./assets/certificates/recapify-2025.jpg" width=200 alt="Recapify 2025"/>
+        <img src="./assets/certificates/ucb-quiz-2024.jpg" width=200 alt="UCB Quiz 2024"/>
+    </div>
+</details>
+
+<details open>
+<summary><a name="olympiads"></a><h2>⚜️ Olympiads & Competitions</h2></summary>
+    <div align="center">
+        <img src="./assets/certificates/bdmo-2025-selection.jpg" width=200 alt="BdMO 2025 Selection"/>
+        <img src="./assets/certificates/bdmo-2025-regional.jpg" width=200 alt="BdMO 2025 Regional"/>
+        <img src="./assets/certificates/bdmo-2023-selection.jpg" width=200 alt="BdMO 2023 Selection"/>
+        <img src="./assets/certificates/bdmo-2023-regional.jpg" width=200 alt="BdMO 2023 Regional"/>
+        <img src="./assets/certificates/bdmo-2022-regional.jpg" width=200 alt="BdMO 2022 Regional"/>
+        <img src="./assets/certificates/bdmo-2021-regional.jpg" width=200 alt="BdMO 2021 Regional"/>
+        <img src="./assets/certificates/bdmo-2018-regional.jpg" width=200 alt="BdMO 2018 Regional"/>
+        <img src="./assets/certificates/bdpho-2020-regional.jpg" width=200 alt="BdPhO 2020 Regional"/>
+        <img src="./assets/certificates/bdeo-2023.jpg" width=200 alt="BdEO 2023 Economics Olympiad"/>
+        <img src="./assets/certificates/astronomy-2023.jpg" width=200 alt="Astronomy Olympiad 2023"/>
+        <img src="./assets/certificates/english-olympiad-2018.jpg" width=200 alt="English Olympiad 2018"/>
+        <img src="./assets/certificates/nno-2023.jpg" width=200 alt="National Notundhara Olympiad 2023"/>
+        <img src="./assets/certificates/rds-2023.jpg" width=200 alt="RDS 2023"/>
+        <img src="./assets/certificates/bangabandhu-2022-honor.jpg" width=200 alt="Bangabandhu 2022 Honor"/>
+        <img src="./assets/certificates/bangabandhu-2022.jpg" width=200 alt="Bangabandhu 2022"/>
+    </div>
+</details>
+
+<details close>
+<summary><a name="certificates"></a><h2>🗂 Ordinary Certificates</h2></summary>
+    <div align="center">
+        <img src="./assets/certificates/diploma-software-2021.jpg" width=200 alt="Software Diploma 2021"/>
+        <img src="./assets/certificates/ict-scout-2025.jpg" width=200 alt="ICT Scout 2025"/>
+        <img src="./assets/certificates/libraries-unlimited-2019.jpg" width=200 alt="Libraries Unlimited 2019"/>
+        <img src="./assets/certificates/bigyan-joyotsob-2015.jpg" width=200 alt="Bigyan Joyotsob 2015"/>
+        <img src="./assets/certificates/child-award-2022.jpg" width=200 alt="Child Award 2022"/>
+        <img src="./assets/certificates/child-award-2020-a.jpg" width=200 alt="Child Award 2020 A"/>
+        <img src="./assets/certificates/child-award-2020-b.jpg" width=200 alt="Child Award 2020 B"/>
+        <img src="./assets/certificates/child-award-2020-c.jpg" width=200 alt="Child Award 2020 C"/>
+        <img src="./assets/certificates/child-award-2020-art.jpg" width=200 alt="Child Award 2020 Art"/>
+        <img src="./assets/certificates/child-award-2020-poem.jpg" width=200 alt="Child Award 2020 Poem"/>
+        <img src="./assets/certificates/child-award-2019-cultural.jpg" width=200 alt="Child Award 2019 Cultural"/>
+        <img src="./assets/certificates/child-award-2019-poetry.jpg" width=200 alt="Child Award 2019 Poetry"/>
+        <img src="./assets/certificates/child-award-2019-story.jpg" width=200 alt="Child Award 2019 Story"/>
+        <img src="./assets/certificates/seasonal-2019.jpg" width=200 alt="Seasonal 2019"/>
+        <img src="./assets/certificates/seasonal-2019-b.jpg" width=200 alt="Seasonal 2019 B"/>
+        <img src="./assets/certificates/seasonal-2019-division.jpg" width=200 alt="Seasonal 2019 Division"/>
+        <img src="./assets/certificates/seasonal-2018.jpg" width=200 alt="Seasonal 2018"/>
+        <img src="./assets/certificates/islamic-cultural-2018-poetry.jpg" width=200 alt="Islamic Cultural 2018 Poetry"/>
+        <img src="./assets/certificates/islamic-cultural-2018-sangeet.jpg" width=200 alt="Islamic Cultural 2018 Sangeet"/>
+        <img src="./assets/certificates/sports-2020-poem.jpg" width=200 alt="Sports 2020 Poem"/>
+        <img src="./assets/certificates/sports-2018-200m.jpg" width=200 alt="Sports 2018 200m"/>
+        <img src="./assets/certificates/sports-2018-relay.jpg" width=200 alt="Sports 2018 Relay"/>
+        <img src="./assets/certificates/sports-2018-swim.jpg" width=200 alt="Sports 2018 Swim"/>
+        <img src="./assets/certificates/kg-school-2017.jpg" width=200 alt="KG School 2017"/>
+        <img src="./assets/certificates/psc-2016.jpg" width=200 alt="PSC 2016"/>
+        <img src="./assets/certificates/jsc-2019.jpg" width=200 alt="JSC 2019"/>
+        <img src="./assets/certificates/ssc-2022.jpg" width=200 alt="SSC 2022"/>
+    </div>
+</details>
+
+---
+
 <div align="center">
   <i>⚡ "Stay curious. Build secure. Ship clean." ⚡</i>
   <br/><br/>
