@@ -89,10 +89,6 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true" />
