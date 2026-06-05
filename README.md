@@ -93,30 +93,30 @@
    
    <!-- GitHub Stats + Streak in ONE ROW -->
    <a href="https://github.com/mazbauddinsaif">
-     <img height="195em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+     <img height="195em" src="https://github-readme-stats.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
    </a>
    &nbsp;
-   <a href="https://github.com/mazbauddinsaif">
-     <img height="195em" src="https://streak-stats.demolab.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true&v=4" alt="GitHub Streak"/>
+   <a href="https://git.io/streak-stats">
+     <img height="195em" src="https://streak-stats.demolab.com/?user=mazbauddinsaif&theme=tokyonight&hide_border=true&background=0d1117&stroke=667eea&ring=764ba2&fire=764ba2&currStreakLabel=667eea" alt="GitHub Streak"/>
    </a>
    
    <br/>
    
    <!-- REAL-TIME LANGUAGE USAGE -->
    <a href="https://github.com/mazbauddinsaif">
-     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=normal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8&card_width=400" alt="Top Languages" />
+     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
    </a>
    
    <br/>
    
    <!-- Activity Graph -->
    <a href="https://github.com/mazbauddinsaif">
-     <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=0d1117&color=667eea&line=764ba2&point=c9d1d9&area=true&area_color=667eea&hide_border=true&custom_title=📈%20Contribution%20Activity" width="95%" alt="Activity Graph"/>
+     <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=0d1117&color=667eea&line=764ba2&point=c9d1d9&area=true&area_color=667eea&hide_border=true&custom_title=Contribution%20Activity" width="95%" alt="Activity Graph"/>
    </a>
    
    <br/><br/>
    
-   <!-- Additional Stats Cards -->
+   <!-- Profile Summary Cards -->
    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mazbauddinsaif&theme=tokyonight" width="95%" alt="Profile Details"/>
    
  </div>
