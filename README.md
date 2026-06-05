@@ -89,13 +89,55 @@ fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
 
 ## 📊 GitHub Stats
 
-
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true" />
+  
+  <!-- GitHub Stats + Streak in ONE ROW -->
+  <a href="https://github.com/mazbauddinsaif">
+    <img height="195em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/mazbauddinsaif">
+    <img height="195em" src="https://github-readme-streak-stats.herokuapp.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  </a>
+  
+  <br/><br/>
+  
+  <!-- REAL-TIME LANGUAGE USAGE -->
+  <a href="https://github.com/mazbauddinsaif">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=normal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8&card_width=400" alt="Top Languages" />
+  </a>
+  
+  <br/><br/>
+  
+  <!-- Activity Graph -->
+  <a href="https://github.com/mazbauddinsaif">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=0d1117&color=667eea&line=764ba2&point=c9d1d9&area=true&area_color=667eea&hide_border=true&custom_title=📈%20Contribution%20Activity" width="95%" alt="Activity Graph"/>
+  </a>
+  
+  <br/><br/>
+  
+  <!-- Additional Stats Cards -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mazbauddinsaif&theme=tokyonight" width="95%" alt="Profile Details"/>
+  
 </div>
 
+---
+
+## 🎮 Contribution Showcase
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=ffffff&area=true&hide_border=true" />
+  
+  <!-- Pac-Man Contribution Graph -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mazbauddinsaif/mazbauddinsaif/output/pacman-contribution-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mazbauddinsaif/mazbauddinsaif/output/pacman-contribution-graph.svg"/>
+    <img alt="Pac-Man eating contributions" src="https://raw.githubusercontent.com/mazbauddinsaif/mazbauddinsaif/output/pacman-contribution-graph-dark.svg" width="100%"/>
+  </picture>
+  
+  <br/>
+  
+  <sub>👾 Watch Pac-Man devour my contributions!</sub>
+  
 </div>
 
 ---
