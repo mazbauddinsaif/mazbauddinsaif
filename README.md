@@ -97,7 +97,7 @@
    </a>
    &nbsp;
    <a href="https://github.com/mazbauddinsaif">
-     <img height="195em" src="https://streak-stats.demolab.com?user=mazbauddinsaif&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak"/>
+     <img height="195em" src="https://streak-stats.vercel.app?user=mazbauddinsaif&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak"/>
    </a>
    
    <br/><br/>
