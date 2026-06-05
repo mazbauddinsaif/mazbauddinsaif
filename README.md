@@ -100,14 +100,14 @@
      <img height="195em" src="https://streak-stats.vercel.app?user=mazbauddinsaif&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak"/>
    </a>
    
-   <br/><br/>
+   <br/>
    
    <!-- REAL-TIME LANGUAGE USAGE -->
    <a href="https://github.com/mazbauddinsaif">
      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=normal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8&card_width=400" alt="Top Languages" />
    </a>
    
-   <br/><br/>
+   <br/>
    
    <!-- Activity Graph -->
    <a href="https://github.com/mazbauddinsaif">
