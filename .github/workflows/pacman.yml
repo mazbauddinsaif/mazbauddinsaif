@@ -1,0 +1,22 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Daily at midnight
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  pacman:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🎮 Generate Pac-Man Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: mazbauddinsaif
+          outputs_branch: output
