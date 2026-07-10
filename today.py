@@ -120,11 +120,13 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
             return stars_counter(request.json()['data']['user']['repositories']['edges'])
 
 
-def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None):
+def recursive_loc(owner, repo_name, data, cache_comment):
     """
     Uses GitHub's GraphQL v4 API and cursor pagination to fetch 100 commits from a repository at a time
+    Iterative (not recursive) so repos with tens of thousands of commits don't blow the stack
     """
-    query_count('recursive_loc')
+    addition_total, deletion_total, my_commits = 0, 0, 0
+    cursor = None
     query = '''
     query ($repo_name: String!, $owner: String!, $cursor: String) {
         repository(name: $repo_name, owner: $owner) {
@@ -157,32 +159,26 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
             }
         }
     }'''
-    variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = graphql_post(query, variables) # I cannot use simple_request(), because I want to save the file before raising Exception
-    if request.status_code == 200:
-        if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
-            return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
-        else: return 0
-    force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
-    if request.status_code == 403:
-        raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
-    raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
-
-
-def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, addition_total, deletion_total, my_commits):
-    """
-    Recursively call recursive_loc (since GraphQL can only search 100 commits at a time)
-    only adds the LOC value of commits authored by me
-    """
-    for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
-            my_commits += 1
-            addition_total += node['node']['additions']
-            deletion_total += node['node']['deletions']
-
-    if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
-        return addition_total, deletion_total, my_commits
-    else: return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
+    while True:
+        query_count('recursive_loc')
+        variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
+        request = graphql_post(query, variables) # I cannot use simple_request(), because I want to save the file before raising Exception
+        if request.status_code != 200:
+            force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
+            if request.status_code == 403:
+                raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
+            raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
+        if request.json()['data']['repository']['defaultBranchRef'] == None: # repo is empty
+            return 0
+        history = request.json()['data']['repository']['defaultBranchRef']['target']['history']
+        for node in history['edges']: # only adds the LOC value of commits authored by me
+            if node['node']['author']['user'] == OWNER_ID:
+                my_commits += 1
+                addition_total += node['node']['additions']
+                deletion_total += node['node']['deletions']
+        if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
+            return addition_total, deletion_total, my_commits
+        cursor = history['pageInfo']['endCursor']
 
 
 def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=[]):
