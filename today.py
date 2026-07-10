@@ -47,7 +47,13 @@ def graphql_post(query, variables, retries=5):
     POSTs to the GraphQL API, retrying with backoff on transient 5xx errors
     """
     for attempt in range(retries):
-        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS)
+        try:
+            request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS, timeout=60)
+        except requests.exceptions.RequestException:
+            if attempt == retries - 1:
+                raise
+            time.sleep(5 * (attempt + 1))
+            continue
         if request.status_code < 500 or attempt == retries - 1:
             return request
         time.sleep(5 * (attempt + 1))
@@ -197,6 +203,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
                 node {
                     ... on Repository {
                         nameWithOwner
+                        isFork
                         defaultBranchRef {
                             target {
                                 ... on Commit {
@@ -222,7 +229,9 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
         edges += request.json()['data']['user']['repositories']['edges']            # Add on to the LoC count
         return loc_query(owner_affiliation, comment_size, force_cache, request.json()['data']['user']['repositories']['pageInfo']['endCursor'], edges)
     else:
-        return cache_builder(edges + request.json()['data']['user']['repositories']['edges'], comment_size, force_cache)
+        edges += request.json()['data']['user']['repositories']['edges']
+        edges = [edge for edge in edges if not edge['node']['isFork']] # skip forks — scanning their upstream history costs hours for zero owned commits
+        return cache_builder(edges, comment_size, force_cache)
 
 
 def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
