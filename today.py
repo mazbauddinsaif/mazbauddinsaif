@@ -375,6 +375,22 @@ def commit_counter(comment_size):
     return total_commits
 
 
+def total_commits_search():
+    """
+    Counts all commits authored by me via the GitHub search API — all repos,
+    all branches, forks included. Same methodology as github-readme-stats'
+    'Total Commits', so the two cards show matching numbers.
+    """
+    for attempt in range(5):
+        request = requests.get(f'https://api.github.com/search/commits?q=author:{USER_NAME}&per_page=1', headers=HEADERS)
+        if request.status_code == 200:
+            return int(request.json()['total_count'])
+        if request.status_code in (403, 429, 502, 503) and attempt < 4:
+            time.sleep(2 * (attempt + 1))
+            continue
+        raise Exception('total_commits_search() has failed with a', request.status_code, request.text, QUERY_COUNT)
+
+
 def user_getter(username):
     """
     Returns the account ID and creation time of the user
@@ -453,7 +469,7 @@ if __name__ == '__main__':
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(total_commits_search)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
