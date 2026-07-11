@@ -375,20 +375,32 @@ def commit_counter(comment_size):
     return total_commits
 
 
-def total_commits_search():
+def total_commit_contributions(acc_date):
     """
-    Counts all commits authored by me via the GitHub search API — all repos,
-    all branches, forks included. Same methodology as github-readme-stats'
-    'Total Commits', so the two cards show matching numbers.
+    Sums my commit contributions year by year since account creation, via the
+    contribution API — includes commits in private and org repos (e.g. work
+    repos), same data source github-readme-stats uses for its total.
     """
-    for attempt in range(5):
-        request = requests.get(f'https://api.github.com/search/commits?q=author:{USER_NAME}&per_page=1', headers=HEADERS)
-        if request.status_code == 200:
-            return int(request.json()['total_count'])
-        if request.status_code in (403, 429, 502, 503) and attempt < 4:
-            time.sleep(2 * (attempt + 1))
-            continue
-        raise Exception('total_commits_search() has failed with a', request.status_code, request.text, QUERY_COUNT)
+    query = '''
+    query($start_date: DateTime!, $end_date: DateTime!, $login: String!) {
+        user(login: $login) {
+            contributionsCollection(from: $start_date, to: $end_date) {
+                totalCommitContributions
+                restrictedContributionsCount
+            }
+        }
+    }'''
+    total = 0
+    start = datetime.datetime.strptime(acc_date, '%Y-%m-%dT%H:%M:%SZ')
+    while start < datetime.datetime.now():
+        end = start + relativedelta.relativedelta(years=1)
+        query_count('graph_commits')
+        variables = {'start_date': start.strftime('%Y-%m-%dT%H:%M:%SZ'), 'end_date': end.strftime('%Y-%m-%dT%H:%M:%SZ'), 'login': USER_NAME}
+        request = simple_request(total_commit_contributions.__name__, query, variables)
+        collection = request.json()['data']['user']['contributionsCollection']
+        total += collection['totalCommitContributions'] + collection['restrictedContributionsCount']
+        start = end
+    return total
 
 
 def user_getter(username):
@@ -469,7 +481,7 @@ if __name__ == '__main__':
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    commit_data, commit_time = perf_counter(total_commits_search)
+    commit_data, commit_time = perf_counter(total_commit_contributions, acc_date)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
