@@ -149,13 +149,7 @@
  
  ---
  
- ## 🎓 Academic Highlights
- 
- | Level | Institution | Result |
- | :--- | :--- | :--- |
- | **B.Sc in CSE** | North South University | Ongoing |
- | **HSC (Science)** | Dhaka Residential Model College | GPA 5.00 |
- | **SSC (Science)** | Cox's Bazar Govt. Boys' High School | GPA 5.00 |
+
  
  
  
