@@ -46,7 +46,6 @@
  currently_learning:
    - Advanced TypeScript & system design
    - Cybersecurity fundamentals
-   - AI / ML foundations
  ask_me_about: [DSA, OOP, Math Olympiads, Debating]
  fun_fact: "District Chess Champion + founded a cultural club I ran for 5 years"
  ```
