@@ -110,23 +110,6 @@
  
    <br/><br/>
  
-   <!-- Top Languages -->
-   <a href="https://github.com/mazbauddinsaif">
-     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mazbauddinsaif&layout=normal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8&card_width=400" alt="Top Languages"/>
-   </a>
- 
-   <br/><br/>
- 
-   <!-- Activity Graph -->
-   <a href="https://github.com/mazbauddinsaif">
-     <img src="https://github-readme-activity-graph.vercel.app/graph?username=mazbauddinsaif&bg_color=0d1117&color=667eea&line=764ba2&point=c9d1d9&area=true&area_color=667eea&hide_border=true&custom_title=📈%20Contribution%20Activity" width="95%" alt="Activity Graph"/>
-   </a>
- 
-   <br/><br/>
- 
-   <!-- Profile Summary Cards -->
-   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mazbauddinsaif&theme=tokyonight" width="95%" alt="Profile Details"/>
- 
  </div>
  
  ---
