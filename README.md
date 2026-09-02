@@ -14,16 +14,23 @@
 
  
  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=mazbauddinsaif&label=Profile%20views&color=58a6ff&style=for-the-badge" />
+   <img src="https://img.shields.io/github/followers/mazbauddinsaif?label=Followers&style=for-the-badge&color=58a6ff" />
    <a href="https://linkedin.com/in/mazbauddinsaif"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
    <a href="https://mazbauddinsaif.vercel.app/#"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-   <a href="mailto:mazbauddinsaif@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
    <a href="https://www.facebook.com/mazbauddin.saif.47"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+
+  
  </p>
+
+ ## 📊 GitHub Stats
  
- <p align="center">
-   <img src="https://komarev.com/ghpvc/?username=mazbauddinsaif&label=Profile%20views&color=58a6ff&style=for-the-badge" />
-   <img src="https://img.shields.io/github/followers/mazbauddinsaif?label=Followers&style=for-the-badge&color=58a6ff" />
- </p>
+ <div align="center">
+    <!-- GitHub Stats + Local Streak SVG in ONE ROW (same as reference) -->
+ <a href="https://github.com/mazbauddinsaif">
+     <img height="195em" src="./assets/streak.svg" alt="GitHub Streak"/>
+   </a>
+ </div>
  
  ---
  
@@ -95,24 +102,6 @@
  
  ---
  
- ## 📊 GitHub Stats
- 
- <div align="center">
- 
-   <!-- GitHub Stats + Local Streak SVG in ONE ROW (same as reference) -->
-   <a href="https://github.com/mazbauddinsaif">
-     <img height="195em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=mazbauddinsaif&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-   </a>
-   &nbsp;
-   <a href="https://github.com/mazbauddinsaif">
-     <img height="195em" src="./assets/streak.svg" alt="GitHub Streak"/>
-   </a>
- 
-   <br/><br/>
- 
- </div>
- 
- ---
  
  ## 🎮 Contribution Showcase
  
@@ -132,12 +121,7 @@
  </div>
  
  ---
- 
 
- 
- 
- 
- ---
  
  <div align="center">
    <i>⚡ "Stay curious. Build secure. Ship clean." ⚡</i>
