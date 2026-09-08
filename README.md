@@ -97,7 +97,7 @@
  
  | Project | Stack | Description |
  | :--- | :--- | :--- |
- | **Production EdTech Platform** @ Automata One | Next.js · React · TS · Tailwind · TanStack Query · Framer Motion · Node.js · Express · MongoDB | Full-stack work — frontend, LMS modules, backend APIs |
+ | **Multiple Leading Softwares** @ Automata One | Next.js · React · TS · Tailwind · Framer Motion · Node.js · Express · PostgreSQL · FastAPI | Full-stack work — frontend, , backend  |
  | **Codeforces Grind** | C++ | Daily competitive programming practice |
  
  ---
